@@ -1,0 +1,94 @@
+body{
+    background-color: #dfe6e9;
+}
+
+main{
+    margin: 55px 0px 0px 0px;
+    position: relative;
+    height: 100%;
+}
+
+.profile{
+    padding: 15px;
+    perspective: 1000px; 
+}
+
+.profile .content{
+    max-width: 400px;
+    margin: 30px auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.profile .content img{
+    border: none;
+}
+
+.profile .info{
+    width: 100%;
+
+}
+
+.profile .info table{
+    width: 90%;
+    height: 80px;
+    margin: 10px 0px 10px 5%;
+}
+
+.profile .info table tr{
+    border-bottom: 1px solid #bdc3c7;
+}
+
+.profile .control .btn-edit{
+    width: 90%;
+    margin: 5px 0px 5px 5%;
+    border: none;
+    background-color: #00b300;
+    color: white;
+    font-weight: 500;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.profile .control .btn-edit:focus{
+    outline: none;
+}
+
+.profile  .edit-form form{
+    width: 90%;
+	margin: 5px 0px 5px 5%;
+}
+
+.profile  .edit-form form  input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #7f8c8d;
+    padding: 6px;
+    margin: 5px 0px 5px 0px;
+}
+
+.profile  .edit-form form  input:focus{
+    outline: none;
+}
+
+.profile  .edit-form form button{
+    width: 100%;
+    margin: 10px 0px 10px 0%;
+    border: none;
+    background-color: #2980b9;
+    color: white;
+    font-weight: 500;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.profile  .edit-form form button:focus{
+    outline: none;
+}
+
+::placeholder{
+    font-weight: 500;
+}
+
+

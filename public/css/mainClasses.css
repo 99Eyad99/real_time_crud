@@ -1,0 +1,83 @@
+.responsive-img{
+    width: 100%;
+    height: auto;
+}
+
+.preventOutline:focus { 
+    outline: none;
+}
+
+.fontDefault{
+    font-weight: 500;
+}
+
+.input-group{
+    width: 100%;
+    border-bottom: 1px solid #bdc3c7;
+    margin: 10px 0px 10px 0px;
+}
+
+.input-group input{
+    width: 100%;
+    border:none;
+}
+
+.input-group textarea{
+    width: 100%;
+    border:none;
+}
+
+.buttonDefault{
+    float: right;
+    margin: 10px;
+    min-width: 120px;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-weight: 500;
+}
+
+.close-btn{
+    background-color: white;
+
+}
+
+.edit-btn{
+    background-color:#28a745;
+}
+
+.fixedTableHeader{
+    position: sticky; 
+    top: -10px;
+}
+
+.inputStyle1{
+    width: 100%;
+    padding: 3px;
+    border: none;
+    border-radius: 2px;
+    background-color: #f5f6fa;
+    
+}
+
+.selectStyle1{
+    width: 100%;
+    padding:3px;
+    border-radius: 2px;
+    background-color: #f5f6fa;
+}
+
+
+.scroll::-webkit-scrollbar {
+    width: 4px;
+  }
+
+.scroll::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+   
+.scroll::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+  }
+

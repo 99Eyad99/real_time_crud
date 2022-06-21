@@ -1,0 +1,163 @@
+.table-responsive{
+    max-height: 370px;
+    overflow-y: scroll;
+    margin: 15px 0px 15px 0px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+table{
+    width: 100%;
+}
+
+.add-post-btn{
+    margin: 15px 0px 15px 0px;
+}
+
+table .control .btn{
+    margin: 3px;
+}
+
+/*   add-from prompt */
+.add-form-prompt{
+    width: 80%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 7px;
+    min-height: 500px;
+
+    margin: 55px 0px 0px 0px;
+    position: absolute;
+    z-index: 3;
+
+}
+
+.add-form-prompt label{
+    font-weight: 500;
+}
+
+.add-form-prompt input{
+    background-color: #f5f6fa;
+    min-height: 30px;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+}
+
+.add-form-prompt textarea{
+    background-color: #f5f6fa;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+}
+
+.add-form-prompt button{
+    float: right;
+    margin: 10px;
+    min-width: 120px;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-weight: 500;
+}
+
+
+.add-form-prompt .cancel-btn{
+    color: #28a745;
+    border: 1px solid #28a745;
+
+}   
+
+.add-form-prompt .cancel-btn:hover{
+    border: 2px solid #28a745;
+}
+
+
+/*   end --- add-from prompt */
+
+/* view_edit template */
+
+.view_edit_template{
+    width: 80%;
+    min-width: 270px;
+
+    background-color: white;
+    padding: 10px;
+    border-radius: 7px;
+    min-height: 300px;
+
+    margin: 55px 0px 0px 0px;
+    position: absolute;
+    z-index: 3;
+}
+
+.view_edit_template .active{
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+}
+
+
+.view_edit_template .info{
+    width: 90%;
+    margin: 10px 0px 10px 5%;
+}
+
+.view_edit_template .subject{
+    font-weight: 500;
+    margin: 5px 0px 5px 0px;
+}
+
+.view_edit_template span{
+    display: flex;
+    margin: 0px 0px 5px 10px;
+}
+
+.view_edit_template .btn-control{
+    width: 100%;
+}
+
+.view_edit_template .btn-control button{
+    float: right;
+    min-width: 120px;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    font-weight: 500;
+    
+    color: #28a745;
+    background-color: white;
+    margin: -10px 0px 10px 0px;
+}
+
+.view_edit_template .edit{
+    width: 90%;
+    margin: 10px 0px 10px 5%;
+}
+
+.view_edit_template .edit form{
+    padding: 10px;
+    border-radius: 4px;
+    
+}
+
+.view_edit_template .edit form .changeImange-btn{
+    width: 100%;
+    border: none;
+    padding: 3px;
+    border-radius: 2px;
+    background-color: #636e72;
+}
+
+.view_edit_template .edit form button{
+    background-color: #28a745;
+    color:white;
+    margin: 10px 0px 10px 0px;
+}
+
+
+
+
+/* view_edit_template */

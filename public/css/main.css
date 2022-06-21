@@ -1,0 +1,13 @@
+body{
+    background-color: #ecf0f1;
+}
+
+main{
+    width: 90%;
+    margin: 56px 0px 0px 5%;
+    height: 100%;
+}
+
+.page-title{
+    margin-top: 15px;
+}

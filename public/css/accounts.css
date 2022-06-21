@@ -1,0 +1,133 @@
+.table-responsive{
+    background-color: white;
+    padding: 8px;
+    border-radius: 2px;
+
+    max-height: 450px;
+    overflow-y: scroll;
+
+}
+
+.table-responsive .control button{
+    margin: 5px;
+}
+
+
+.add-account-btn{
+    margin: 15px 0px 15px 0px;
+}
+
+/* add prompt account */
+.add-account-prompt{
+    width: 80%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 4px;
+    min-height: 270px;
+
+    margin: 55px 0px 0px 5%;
+    z-index: 3;
+    position: fixed;
+}
+
+.add-account-prompt form{
+    width: 100%;
+}
+
+.add-account-prompt form input{
+    width: 100%;
+    border: none;
+    background-color: #f5f6fa;
+}
+
+.add-account-prompt form select{
+    width: 100%;
+    padding:3px;
+    background-color: #f5f6fa;
+
+}
+
+
+.add-account-prompt form select{
+    width: 100%;
+}
+
+.add-account-prompt form .btn-submit{
+    background-color: #4834d4;
+}
+
+.add-account-prompt form .btn-cancel{
+    color: #4834d4;
+    background-color: white;
+    border: 1px solid #4834d4;
+}
+/* end add prompt */
+
+/* start view_edit prompt */
+.view_edit_prompt{
+    width: 80%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 3px;
+
+    margin: 55px 0px 0px 5%;
+    z-index: 3;
+    position: fixed;
+}
+
+.view_edit_prompt .view_part{
+    min-height: 100px;
+}
+
+
+.view_edit_prompt .title{
+    margin: 10px 0px 10px 0px;
+    background-color: #27ae60;
+    color: white;
+    padding: 5px;
+    border-radius: 2px;
+}
+.view_edit_prompt .controller{
+    width:100%;
+    height: 35px;
+
+}
+
+.view_edit_prompt .cancel{
+    margin-right: 8px;
+    font-size: 25px;
+    float: right;
+
+    border: none;
+    background-color: white;
+
+}
+
+.view_edit_prompt table{
+    min-width: 230px;
+}
+
+.view_edit_prompt .edit_open_btn{
+    margin: 10px 0px 10px 0px;
+    padding: 5px;
+    min-width: 120px;
+    background-color: white;
+    border: none;
+    color: #27ae60;
+    border-radius: 2px;
+    border: 1px solid #27ae60;
+}
+
+.view_edit_prompt .edit_part button{
+    border: none;
+    float: right;
+    margin: 10px 0px 10px 0px;
+    padding: 5px;
+    min-width: 125px;
+    background-color: #27ae60;
+    color: white;
+    border-radius: 2px;
+}
+
+/* end view_edit prompt */
+
